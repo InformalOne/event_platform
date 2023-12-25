@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+
 const Footer = () => {
   return (
     <footer className="border-t">
@@ -12,6 +13,7 @@ const Footer = () => {
            height={38}
           />
         </Link>
+        
         <p> 2023. KCU All rights reserved.</p>
       </div>
     </footer>
